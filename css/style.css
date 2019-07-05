@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"]{
+	float: left;
+}
+
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%}
+.col-3 {width:25%;}
+.col-4 {width:33.3%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.6%;}
+.col-12 {width:100%;}
+
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.bg-menu{
+	margin: 0;
+	padding: 0;
+	background-color: #333; 
+	height: 60px;
+}
+
+ul.menu-kiri,
+ul.menu-tengah,
+ul.menu-kanan{
+	list-style-type: none;
+}
+ul.menu-kiri li a{
+	padding: 20px 25px;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+ul.menu-tengah li {
+	text-align: center;
+}
+ul.menu-tengah li input{
+	width: 95%;
+	margin: 10px 0 10px 20px;
+	padding: 10px 20px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	outline: none;
+}
+ul.menu-kanan li{
+	float: right;
+}
+ul.menu-kanan li a{
+	padding: 20px 25px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+.populer{
+	width: 75%;
+	margin: 0 auto;
+}
+.judul{
+	text-align: center;
+	margin: 25px 0;
+}
+.judul h1{
+	padding-bottom: 10px;
+}
+hr.garis-bawah{
+	width: 7%;
+	margin: 0 auto;
+	border: 3px solid #333;
+}
+.konten{
+	margin: 30px 2px;
+}
+.konten img{
+	width: 100%;
+	cursor: pointer;	
+}
+.img-bawah{
+	margin-top: -60px;
+}
+.konten img:hover{
+	opacity: .7;
+	transition: .7s;
+	border-radius: 30px;
+}
+.btn-dark{
+	margin: 25px 0;
+	padding: 12px;
+	background-color: transparent;
+	border: 2px solid #333;
+	color: #333;
+	width: 130px;
+	cursor: pointer;
+	transition: .7s;
+}
+.btn-dark:hover{
+	width: 200px;
+	background-color: #333;
+	color: #FFF;
+}
+.latest{
+	background-color: #ececec;
+}
+.konten-2{
+	margin: 0 2px;
+}
+.konten-2 img{
+	width: 100%;
+}
+.news{
+	width: 75%;
+	margin: 0 auto;
+}
+.konten-3{
+	margin: 20px 10px;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+.konten-3 img{
+	width: 100%;
+}
+.konten-3 h3{
+	padding-bottom: 10px;
+	color: #333;
+}
+.konten-3 p{
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #666;
+	line-height: 1.7s;
+}
+.footer{
+	background-color: #333;
+	margin-top: 30px;
+	color: #fff;
+}
+.footer-kiri p{
+	text-align: left;
+	padding: 20px 30px;
+}
+.footer-tengah p{
+	text-align: center;
+	padding: 20px 30px;
+}
+.footer-kanan p{
+	text-align: right;
+	padding: 20px 30px;
+}
+.footer-kanan p i{
+	padding: 0 10px;
+}
